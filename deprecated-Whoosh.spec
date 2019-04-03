@@ -4,7 +4,7 @@
 #
 Name     : deprecated-Whoosh
 Version  : 2.7.4
-Release  : 27
+Release  : 28
 URL      : http://pypi.debian.net/Whoosh/Whoosh-2.7.4.tar.gz
 Source0  : http://pypi.debian.net/Whoosh/Whoosh-2.7.4.tar.gz
 Summary  : Fast, pure-Python full text indexing, search, and spell checking library.
@@ -59,7 +59,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1554303537
+export SOURCE_DATE_EPOCH=1554303808
 export MAKEFLAGS=%{?_smp_mflags}
 python2 setup.py build -b py2
 
